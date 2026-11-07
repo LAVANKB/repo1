@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Colourful Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background: #222;
+            padding: 20px;
+            font-size: 28px;
+            color: #00ffff;
+        }
+
+        nav {
+            background: #ff4081;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 50px 20px;
+        }
+
+        h1 {
+            font-size: 45px;
+            color: #ffff00;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: white;
+            color: #333;
+            width: 220px;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+            background: #ffeb3b;
+        }
+
+        button {
+            background: #ff4081;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #00bcd4;
+        }
+
+        footer {
+            background: #222;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        🌟 MY COLOURFUL WEBSITE 🌟
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <h1>Welcome to My Website!</h1>
+
+        <p>Explore the world of creativity, colours and technology.</p>
+
+        <button onclick="alert('Welcome to My Website!')">
+            Click Me!
+        </button>
+
+        <div class="cards">
+
+            <div class="card">
+                <h2>🔵 HTML</h2>
+                <p>Build the structure of websites.</p>
+            </div>
+
+            <div class="card">
+                <h2>🟣 CSS</h2>
+                <p>Make websites beautiful and colourful.</p>
+            </div>
+
+            <div class="card">
+                <h2>🟢 JavaScript</h2>
+                <p>Add interactive features to websites.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 My Colourful Website | Created with ❤️</p>
+    </footer>
+
+</body>
+</html>
